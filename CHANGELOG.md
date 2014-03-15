@@ -1,6 +1,12 @@
 the_silver_searcher
 ===================
 
+v1.3.8 (2014-03-15)
+-------------------
+- the_silver_searcher updated to version 0.20.0
+- support alternate source URLs
+
+
 v1.3.7 (2014-02-17)
 -------------------
 - the_silver_searcher updated to version 0.19.2
