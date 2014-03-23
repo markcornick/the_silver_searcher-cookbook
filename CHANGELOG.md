@@ -1,6 +1,13 @@
 the_silver_searcher
 ===================
 
+v1.3.9 (2014-03-23)
+-------------------
+- the_silver_searcher updated to 0.21.0
+- there is a 0.21.1 version in git HEAD, but no tarball is available yet
+- changed the URL (hopefully temporarily) to work around CHEF-5148
+
+
 v1.3.8 (2014-03-15)
 -------------------
 - the_silver_searcher updated to version 0.20.0
