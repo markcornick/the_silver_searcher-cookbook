@@ -1,21 +1,10 @@
 require 'rspec/core/rake_task'
 require 'rubocop/rake_task'
-require 'stove/rake_task'
 
 task :default => [:rubocop, :spec, :foodcritic]
 
 RSpec::Core::RakeTask.new(:spec)
 Rubocop::RakeTask.new
-Stove::RakeTask.new do |stove|
-  stove.bump = true
-  stove.changelog = true
-  stove.dev = false
-  stove.upload = true
-  stove.community = true
-  stove.git = true
-  stove.github = true
-  stove.jira = false
-end
 
 desc "Runs foodcritic linter"
 task :foodcritic do
