@@ -20,15 +20,12 @@ platforms:
 - name: fedora-20
   driver:
     box: chef/fedora-20
-- name: ubuntu-10.04
-  driver:
-    box: chef/ubuntu-10.04
 - name: ubuntu-12.04
   driver:
     box: chef/ubuntu-12.04
-- name: ubuntu-13.10
+- name: ubuntu-14.04
   driver:
-    box: chef/ubuntu-13.10
+    box: chef/ubuntu-14.04
 
 suites:
 - name: debianish
@@ -36,9 +33,8 @@ suites:
   - recipe[the_silver_searcher]
   includes:
     - debian-7.4
-    - ubuntu-10.04
     - ubuntu-12.04
-    - ubuntu-13.10
+    - ubuntu-14.04
 - name: redhattish
   run_list:
   - recipe[the_silver_searcher]
