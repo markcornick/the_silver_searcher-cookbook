@@ -1,3 +1,9 @@
+# Call For Maintainers
+
+TeamSnap would like to find a new maintainer for this cookbook. Please
+contact Mark Cornick (<mark@teamsnap.com>) if you'd like to take over.
+Thanks!
+
 # the_silver_searcher cookbook
 
 Builds [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
