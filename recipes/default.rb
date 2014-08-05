@@ -28,7 +28,6 @@ bash 'install ag' do
   user 'root'
   cwd Chef::Config['file_cache_path']
   code <<-EOH
-    echo build opt: #{node.the_silver_searcher.build_opt}
     tar -zxf #{cache}.tar.gz
     (cd #{cache} && ./build.sh #{node.the_silver_searcher.build_opt} && make install)
   EOH
