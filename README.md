@@ -1,6 +1,7 @@
 # Call For Maintainers
 
-TeamSnap would like to find a new maintainer for this cookbook. Please
+TeamSnap is no longer using Chef and this cookbook is no longer actively
+maintaned. We would like to find a new maintainer for this cookbook. Please
 contact Mark Cornick (<mark@teamsnap.com>) if you'd like to take over.
 Thanks!
 
