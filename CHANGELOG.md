@@ -1,6 +1,14 @@
 the_silver_searcher
 ===================
 
+v1.4.0 (2015-03-25)
+-------------------
+- bring this cookbook back from the dead!
+- the_silver_searcher updated to version 0.29.1
+- update to modern tooling and code standards
+- collapse integration tests into one suite
+- allow passing options to ag's build.sh script
+
 v1.3.9 (2014-03-23)
 -------------------
 - the_silver_searcher updated to 0.21.0
