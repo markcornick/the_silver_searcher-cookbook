@@ -1,13 +1,5 @@
 require 'spec_helper'
 
-%w(automake pkg-config zlib1g-dev libpcre3-dev liblzma-dev).each do |prereq|
-  describe "the #{prereq} package" do
-    it 'should be installed' do
-      expect(package(prereq)).to be_installed
-    end
-  end
-end
-
 ag = file('/usr/local/bin/ag')
 describe '/usr/local/bin/ag' do
   it 'should exist' do
