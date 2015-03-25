@@ -29,7 +29,7 @@ bash 'install ag' do
   cwd Chef::Config['file_cache_path']
   code <<-EOH
     tar -zxf #{cache}.tar.gz
-    (cd #{cache} && ./build.sh && make install)
+    (cd #{cache} && ./build.sh #{node.the_silver_searcher.build_opt} && make install)
   EOH
   action :nothing
 end
