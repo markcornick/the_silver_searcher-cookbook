@@ -1,44 +1,20 @@
 ---
 driver:
   name: vagrant
-  vagrantfile_erb: Vagrantfile.erb
 
 provisioner:
-  name: chef_solo
-  require_chef_omnibus: true
+  name: chef_zero
 
 platforms:
-- name: centos-5.10
-  driver:
-    box: chef/centos-5.10
-- name: centos-6.5
-  driver:
-    box: chef/centos-6.5
-- name: debian-7.4
-  driver:
-    box: chef/debian-7.4
-- name: fedora-20
-  driver:
-    box: chef/fedora-20
+- name: centos-6.6
+- name: centos-7.0
+- name: debian-7.8
+- name: fedora-21
 - name: ubuntu-12.04
-  driver:
-    box: chef/ubuntu-12.04
 - name: ubuntu-14.04
-  driver:
-    box: chef/ubuntu-14.04
 
 suites:
-- name: debianish
+- name: default
   run_list:
+  - recipe[apt]
   - recipe[the_silver_searcher]
-  includes:
-    - debian-7.4
-    - ubuntu-12.04
-    - ubuntu-14.04
-- name: redhattish
-  run_list:
-  - recipe[the_silver_searcher]
-  includes:
-    - centos-5.10
-    - centos-6.5
-    - fedora-20
