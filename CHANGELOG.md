@@ -1,6 +1,10 @@
 the_silver_searcher
 ===================
 
+v1.4.1 (2015-05-06)
+-------------------
+- the_silver_searcher updated to version 0.30.0
+
 v1.4.0 (2015-03-25)
 -------------------
 - bring this cookbook back from the dead!
