@@ -11,7 +11,7 @@ describe 'the_silver_searcher::default' do
   end
 
   %w(automake pkg-config zlib1g-dev libpcre3-dev liblzma-dev
-     bison autoconf binutils-doc flex build-essential).each do |p|
+     bison autoconf binutils-doc flex build-essential tar).each do |p|
     it "installs #{p}" do
       expect(chef_run).to install_package(p)
     end
