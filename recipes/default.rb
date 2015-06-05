@@ -1,9 +1,9 @@
-include_recipe 'chef-sugar'
 include_recipe 'build-essential'
 
-if debian?
+case node.platform_family
+when 'debian'
   prereqs = %w(automake pkg-config zlib1g-dev libpcre3-dev liblzma-dev tar)
-elsif rhel? || fedora?
+when 'rhel', 'fedora'
   prereqs = %w(automake pkgconfig zlib zlib-devel pcre pcre-devel xz xz-devel tar)
 else
   log "Don't know prereqs for #{node.platform_family}; proceeding anyway"

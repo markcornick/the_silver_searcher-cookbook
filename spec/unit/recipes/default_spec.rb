@@ -6,10 +6,6 @@ describe 'the_silver_searcher::default' do
     runner.converge(described_recipe)
   end
 
-  it 'installs chef-sugar' do
-    expect(chef_run).to install_chef_gem('chef-sugar')
-  end
-
   %w(automake pkg-config zlib1g-dev libpcre3-dev liblzma-dev
      bison autoconf binutils-doc flex build-essential tar).each do |p|
     it "installs #{p}" do
