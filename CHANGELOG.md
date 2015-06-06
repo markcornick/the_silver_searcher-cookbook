@@ -1,6 +1,11 @@
 the_silver_searcher
 ===================
 
+v1.4.2 (2015-06-05)
+-------------------
+- remove chef-sugar
+- various small fixes
+
 v1.4.1 (2015-05-06)
 -------------------
 - the_silver_searcher updated to version 0.30.0
