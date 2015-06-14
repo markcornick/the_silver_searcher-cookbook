@@ -7,7 +7,7 @@ provisioner:
 
 platforms:
 - name: centos-6.6
-- name: centos-7.0
+- name: centos-7.1
 - name: debian-7.8
 - name: fedora-21
 - name: ubuntu-12.04
