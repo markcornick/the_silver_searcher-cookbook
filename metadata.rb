@@ -1,6 +1,6 @@
 name 'the_silver_searcher'
 maintainer 'Mark Cornick'
-maintainer_email 'mark@cornick.io'
+maintainer_email 'mark@markcornick.com'
 license 'MIT'
 description 'Installs/Configures The Silver Searcher'
 depends 'build-essential'
