@@ -6,9 +6,9 @@ from source.
 # Requirements
 
 This cookbook supports Debian and Red Hat platform families. It is
-tested on the two most recent versions of CentOS, the most recent stable
-version of Debian, the most recent version of Fedora, the current and
-previous LTS versions of Ubuntu, and the most recent version of Ubuntu.
+tested on the two most recent major versions of CentOS, the most recent stable
+version of Debian, the most recent version of Fedora supporting yum, the current
+and previous LTS versions of Ubuntu, and the most recent version of Ubuntu.
 
 # Usage
 
