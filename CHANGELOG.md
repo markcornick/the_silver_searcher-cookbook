@@ -1,5 +1,10 @@
 # the\_silver\_searcher
 
+## v1.4.3 (2016-01-21)
+
+-   the\_silver\_searcher updated to version 0.31.0
+-   various spec, test, and documentation improvements
+
 ## v1.4.2 (2015-06-05)
 
 -   remove chef-sugar
