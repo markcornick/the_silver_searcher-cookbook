@@ -10,6 +10,14 @@ tested on the two most recent major versions of CentOS, the most recent stable
 version of Debian, the most recent version of Fedora supporting yum, the current
 and previous LTS versions of Ubuntu, and the most recent version of Ubuntu.
 
+It depends on the [`build_essential`][] cookbook which recommends, on
+Debian platform family systems, to run an `apt-get update` before running
+it to ensure that the latest version is installed. See [the note][] there
+for further instructions.
+
+[`build_essential`]: https://supermarket.chef.io/cookbooks/build-essential
+[the note]: https://github.com/chef-cookbooks/build-essential#cookbooks
+
 ## Usage
 
 Include `recipe[the_silver_searcher]` in a run list.
