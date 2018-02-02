@@ -1,3 +1,7 @@
+# UNMAINTAINED
+
+This cookbook is unmaintained. Use at your own risk.
+
 # the\_silver\_searcher cookbook
 
 Builds [The Silver Searcher](https://github.com/ggreer/the_silver_searcher)
